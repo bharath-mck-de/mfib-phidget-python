@@ -19,7 +19,7 @@ from dotenv import load_dotenv
 from Phidget22.Devices.VoltageInput import VoltageInput
 
 PROJECT_DIR = Path(__file__).resolve().parent.parent
-load_dotenv(PROJECT_DIR / ".env")
+load_dotenv()
 
 _shutdown = threading.Event()
 _last_publish_ms = 0.0

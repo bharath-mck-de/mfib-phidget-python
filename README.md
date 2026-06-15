@@ -160,9 +160,3 @@ python scripts/test_mqtt.py --subscribe "mfib/munich/filling-1/filler01/telemetr
 | MQTT connection refused | Start HiveMQ or check `MQTT_BROKER_HOST` / port |
 | Publisher already running | `./scripts/stop.sh` then `start.sh` |
 | Wrong current readings | Adjust `SENSOR_AMPS_OFFSET` and `SENSOR_AMPS_VOLTS_RATIO` |
-
-## Related projects
-
-- [`09-phidget-sensors`](../09-phidget-sensors) — original Python voltage → current reference
-- [`11-nodered-phidget`](../11-nodered-phidget) — Node-RED + Docker prototype
-- [`10-hivemq-broker`](../10-hivemq-broker) — HiveMQ broker and MFIB topic conventions
