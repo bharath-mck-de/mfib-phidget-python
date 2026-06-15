@@ -16,14 +16,12 @@ Python publisher (this project, runs on host)
 HiveMQ MQTT broker (local for dev, central LAN for prod)
 ```
 
-Compared to [`11-nodered-phidget`](../11-nodered-phidget): this project talks to the Phidget directly via USB. Node-RED in Docker requires Phidget Network Server on the host as an extra hop.
-
 ## Prerequisites
 
 ### Every host (Mac dev or Windows station)
 
 1. Python 3.10+
-2. [Phidget drivers](https://www.phidgets.com/downloads/) installed
+2. [Phidget drivers](https://www.phidgets.com/docs/OS_-_Windows) installed
 3. Phidget VINT Hub connected via USB
 4. Git Bash, WSL, or SSH to run `.sh` scripts on Windows
 
